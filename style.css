@@ -25,7 +25,7 @@
 body {
     font-size: 15px;
     line-height: 26px;
-    background-color: #ffffff;
+    background-color: #e0f7e0;
 }
 
 h1,
@@ -40,6 +40,16 @@ p,
 .header .dropdown-menu,
 .navbar-nav .nav-link {
     font-family: 'Roboto', serif;
+    color: #2e7d32;
+}
+
+a {
+    color: #2e7d32; /* Darker green for links */
+}
+
+body,
+p {
+    color: #4a4a4a; /* Slightly darker gray for body text */
 }
 
 h1,
@@ -136,7 +146,7 @@ a {
 .header {
     padding: 0.4rem 0;
     position: relative;
-    background-color: #ffffff;
+    background-color: #e0f7e0;;
 }
 
 .navbar-inverse .navbar-nav .nav-link,
@@ -146,7 +156,7 @@ a {
     line-height: 1;
     padding: 0.9rem 0 0.8rem;
     text-transform: capitalize;
-    color: #121212;
+    color: #2e7d32;
 }
 
 .dropdown-toggle::after {
@@ -602,7 +612,7 @@ div.tab button:hover {
     padding: 4rem 0;
     background: url('images/OIP.jpg') no-repeat center center;
     background-size: cover;
-    background-color: #edeff2; /* Warna cadangan jika gambar gagal dimuat */
+    background: #c8e6c9; /* Warna cadangan jika gambar gagal dimuat */
 }
 
 .footer.wb {
@@ -662,7 +672,7 @@ div.tab button:hover {
 
 .footer h5,
 .footer ul li a {
-    color: #111111;
+    color: #2e7d32;
 }
 
 .demos .blog-meta h4 {
