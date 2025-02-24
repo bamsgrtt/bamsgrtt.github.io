@@ -21,7 +21,12 @@
 
 /* BASIC 
 **************************************/
-
+.author-name {
+    font-size: 14px; /* Ukuran font lebih kecil */
+    color: #5e5e5e; /* Warna teks */
+    display: block; /* Membuatnya berada di baris baru */
+    margin-top: 5px; /* Jarak atas untuk pemisahan */
+}
 body {
     font-size: 15px;
     line-height: 26px;
